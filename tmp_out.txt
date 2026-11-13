@@ -1,0 +1,71 @@
+﻿00:00 +0: loading C:/Users/Nicat5/Downloads/birimm/test/tmp_overflow_test.dart
+00:00 +0: find overflow page
+PAGE calculator => null
+PAGE markets => A RenderFlex overflowed by 144 pixels on the right.
+PAGE favorites => null
+PAGE history => null
+ÔòÉÔòÉÔòí EXCEPTION CAUGHT BY RENDERING LIBRARY ÔòŞÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉ
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 151 pixels on the right.
+
+The relevant error-causing widget was:
+  Row Row:file:///C:/Users/Nicat5/Downloads/birimm/lib/screens/settings_screen.dart:729:11
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#c22ea relayoutBoundary=up33 OVERFLOWING:
+  creator: Row ÔåÉ Column ÔåÉ Padding ÔåÉ DecoratedBox ÔåÉ Container ÔåÉ _SourceRow ÔåÉ Column ÔåÉ Padding ÔåÉ Column
+    ÔåÉ Padding ÔåÉ Padding ÔåÉ DecoratedBox ÔåÉ Ôï»
+  parentData: offset=Offset(0.0, 56.0); flex=null; fit=null (can use size)
+  constraints: BoxConstraints(w=228.0, 0.0<=h<=Infinity)
+  size: Size(228.0, 15.0)
+  direction: horizontal
+  mainAxisAlignment: start
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+ÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñ
+ÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉ
+ÔòÉÔòÉÔòí EXCEPTION CAUGHT BY RENDERING LIBRARY ÔòŞÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉ
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 151 pixels on the right.
+
+The relevant error-causing widget was:
+  Row Row:file:///C:/Users/Nicat5/Downloads/birimm/lib/screens/settings_screen.dart:729:11
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#2a969 relayoutBoundary=up33 OVERFLOWING:
+  creator: Row ÔåÉ Column ÔåÉ Padding ÔåÉ DecoratedBox ÔåÉ Container ÔåÉ _SourceRow ÔåÉ Column ÔåÉ Padding ÔåÉ Column
+    ÔåÉ Padding ÔåÉ Padding ÔåÉ DecoratedBox ÔåÉ Ôï»
+  parentData: offset=Offset(0.0, 56.0); flex=null; fit=null (can use size)
+  constraints: BoxConstraints(w=228.0, 0.0<=h<=Infinity)
+  size: Size(228.0, 15.0)
+  direction: horizontal
+  mainAxisAlignment: start
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+ÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñÔùóÔùñ
+ÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉ
+PAGE settings => Multiple exceptions (2) were detected during the running of the current test, and at least one was unexpected.
+PAGE calculator => null
+00:02 +1: All tests passed!
